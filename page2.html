@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+    <meta name="keywords" content="seo, webdesign, lyon, agence web">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -16,8 +16,9 @@
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+	
 
     <title>Agence de webdesign à Lyon | La Chouette Agence</title>
 
@@ -37,7 +38,7 @@
 
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="lyon web design logo agence web meilleure agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -84,13 +85,8 @@
 		<div class="row">
 			<div class="flex-form">
 				<div class="col-sm-6">
-					<form class="gform "id="form_1" method="post" data-email="marques.raph@gmail.com" action="https://script.google.com/macros/s/AKfycbwgXagqZD4ZYHWvp87H1IcA6Xlq7R-bSozo5DYl/exec">
-
-					<div style="display:none" class="thankyou_message">
-
- 						<h2><em>Thanks</em> for contacting us! We will get back to you soon!
- 						</h2>
-					</div>
+					<form id="form_1" novalidate success-msg="Votre message a été envoyé." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					
 					
 						<div class="form-group">
 							<label>
@@ -112,7 +108,7 @@
 						</div>
 						<div class="form-group">
 							<label>
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								Décrivez rapidement votre projet<br>
 							</label><textarea id="message" class="form-control" rows="5" cols="50" style="width: 100%;" maxlength="150" required></textarea>
 						</div> 
 						
@@ -175,8 +171,7 @@
 
 </div>
 <!-- Principal conteneur END -->
-   
-<script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+  
 
 </body>
 </html>
