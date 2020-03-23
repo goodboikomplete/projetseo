@@ -18,7 +18,13 @@
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
 	$headers .= "From: contact@yoursite.com\n";
 	$headers .= "Reply-To: $input_504";	
+
+	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
-	return true;			
+	{
+	return true;	
+	}
+
+
 ?>
