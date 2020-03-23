@@ -22,6 +22,9 @@ li{
     list-style: none;
 }
 
+
+
+
 .white, .text-accessibility{
     font-size: 13px;
 }
@@ -419,6 +422,8 @@ li{
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -457,6 +462,7 @@ li{
     display: block;
     padding: 14px 15px;
 }
+
 
 nav .caret {
     margin: 0 5px;
@@ -976,7 +982,6 @@ h4 {
         padding-right: 10px!important;
     }
 
-   
 
 
     .b-parallax {
@@ -1113,10 +1118,15 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+
+
+
 }
